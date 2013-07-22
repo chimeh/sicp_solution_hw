@@ -1,4 +1,4 @@
-﻿
+
 (define (pascal-triangle row col) 
   (cond ((> col row) 0) 
         ((< col 0) 0) 

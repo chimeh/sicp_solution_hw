@@ -1,4 +1,4 @@
-﻿SICP Exercise 1.13
+SICP Exercise 1.13
 
 The following is my solution to Exercise 1.13 in Structure and Interpretation of Computer Programs
 
