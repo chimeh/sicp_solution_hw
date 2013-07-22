@@ -1,4 +1,4 @@
-#lang planet neil/sicp
+﻿#lang planet neil/sicp
 ;
 ;create by jim at 19:51 2013/7/18
 (define (cube x) (* x x x))
