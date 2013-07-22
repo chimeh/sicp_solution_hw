@@ -4,12 +4,12 @@
 (define (inc y) (+ y 1))
 (define (dec y) (- y 1))
 
-;递归�
+;閫掑綊寮
 (define (plus a b)
   (if (= a 0)
       b
       (inc (plus (dec a) b))))
-;迭代�
+;杩唬寮
 (define (plus_it a b)
   (if (= a 0)
       b
