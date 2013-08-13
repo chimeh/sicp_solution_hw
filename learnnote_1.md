@@ -1,30 +1,30 @@
-# SICP 1.xx学习笔记 #
+# SICP 1.xx瀛︿範绗旇 #
 
 
 
 ### by jim ###
 
 --------------------------
-这是SICP1�
+杩欐槸SICP1銆
 
-术语�process*, *procedure*, *self-evaluating*, *name*, *combinations*, *special form*,  
+鏈锛process*, *procedure*, *self-evaluating*, *name*, *combinations*, *special form*,  
   
-关键字：primitives (numbers and built in procedures);
+鍏抽敭瀛楋細primitives (numbers and built in procedures);
 means of combination (ways of creating complex expressions);means of abstraction (a way of giving a name to something)
 
 
-- 第一部分
+- 绗竴閮ㄥ垎
 
 > - need a language for describing process:
-> - 描述process需要的语言特�
+> - 鎻忚堪process闇€瑕佺殑璇█鐗规€
 
 >> + Vocabulary 
->> + Rules for writing compound expressions - syntax 语法
->> + Rules for assigning meaning to constructs - semantics 语义
->> + Rules for capturing process of evalution - procedures 过程
+>> + Rules for writing compound expressions - syntax 璇硶
+>> + Rules for assigning meaning to constructs - semantics 璇箟
+>> + Rules for capturing process of evalution - procedures 杩囩▼
 
 > - using procedures control complexity
-> - 使用procedures控制复杂�
+> - 浣跨敤procedures鎺у埗澶嶆潅搴
 
 >> + create a set of primitive elements in language - single data and procedures.
 >> + create a set of rules for combining elenments of language.
@@ -43,7 +43,7 @@ means of combination (ways of creating complex expressions);means of abstraction
 >>> + hardware/register languages
 >>> + manipulation of programs compilation
 
-> + evaluation rules 求值规�
+> + evaluation rules 姹傚€艰鍒
 
 >> + primitive: numberal string boolean evaluates to itself.
 >> + name evaluates to the value bound that name in the enviroment.
@@ -62,5 +62,5 @@ __evaluate the body with each formal parameter replaced by the corresponding arg
 
 
 --------------------------
-1.26.scm 关于算法复杂度的分析不太清楚
+1.26.scm 鍏充簬绠楁硶澶嶆潅搴︾殑鍒嗘瀽涓嶅お娓呮
 

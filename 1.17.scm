@@ -2,7 +2,7 @@
 ;; about the language level of this file in a form that our tools can easily process.
 #reader{lib "htdp-advanced-reader.ss" "lang"}{{modname |1.17|} {read-case-sensitive #t} {teachpacks ()} {htdp-settings #(#t quasiquote repeating-decimal #t #t none #t ())}}
 
-
+;习题1.17
 ;low vesion mul, linear step alone with the problem scale b
 ;linear recursion
 (define (mul-lin-rec a b)

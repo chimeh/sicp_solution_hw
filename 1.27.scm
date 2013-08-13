@@ -1,5 +1,6 @@
 #lang racket 
-; #lang racket
+
+;习题1.27
 (define (square n) (* n n))
 
 (define (expmod base exp m)

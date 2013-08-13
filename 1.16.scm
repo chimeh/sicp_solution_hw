@@ -1,6 +1,8 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
 #reader{lib "htdp-advanced-reader.ss" "lang"}{{modname |1.16|} {read-case-sensitive #t} {teachpacks ()} {htdp-settings #(#t quasiquote mixed-fraction #t #t none #t ())}}
+
+;习题1.16
 (define (fast-expt-v2 b n) (fast-expt-iter b n 1))
 
 (define (fast-expt-iter b counter product)

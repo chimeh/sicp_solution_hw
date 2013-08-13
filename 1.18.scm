@@ -2,7 +2,7 @@
 ;; about the language level of this file in a form that our tools can easily process.
 #reader{lib "htdp-advanced-reader.ss" "lang"}{{modname |1.18|} {read-case-sensitive #t} {teachpacks ()} {htdp-settings #(#t constructor repeating-decimal #t #t none #t ())}}
 
-
+;习题1.18
 ;fast version mul, use tree iteration 
 (define (mul-tree-iter a b)
     (mul-tree-iter-rel a b 0))

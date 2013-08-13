@@ -1,15 +1,12 @@
-;; The first three lines of this file were inserted by DrRacket. They record metadata
-;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-intermediate-lambda-reader.ss" "lang")((modname 1.14b) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ())))
-﻿; Copyright (C) 2010 Toby Thain, toby@telegraphics.com.au
-
+;#lang planet neil/sicp
+;参考http://community.schemewiki.org/?sicp-ex-1.14
+; Copyright (C) 2010 Toby Thain, toby@telegraphics.com.au
 ; SICP, 1.2.2 Tree Recursion
 ; Counting change example.
 
 ; To run: 'make tree' in the CLI.
 ; produces, via graphviz, a diagram of the "recursion tree" in tree.svg
 
-#lang planet neil/sicp
 
 (define (count-change amount coins parent-id branch)
   (define (pr lst) (for-each display lst))

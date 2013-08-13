@@ -2,6 +2,7 @@
 ;; about the language level of this file in a form that our tools can easily process.
 #reader{lib "htdp-advanced-reader.ss" "lang"}{{modname |1.19|} {read-case-sensitive #t} {teachpacks ()} {htdp-settings #(#t constructor repeating-decimal #t #t none #t ())}}
 
+;习题1.19
 ;如何使用线型代数的知识，来直观的简化这道题？？
 ;算子是线型的？？怎么看出来？怎么判断？有什么性质？？
 (define (fib n)
