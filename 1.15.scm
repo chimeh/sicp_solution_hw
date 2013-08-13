@@ -1,5 +1,6 @@
 #lang planet neil/sicp
-;
+
+;习题1.15
 ;create by jim at 19:51 2013/7/18
 (define (cube x) (* x x x))
 

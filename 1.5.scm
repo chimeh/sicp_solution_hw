@@ -1,3 +1,4 @@
+;习题1.5
 ; Note that ``p'' is recursively defined by itself. Therefore, for 
 ; the applicative-order evaluation, ``p'' will be evaluated in the 
 ; test, and this will lead to an infinite recursion. While in the 

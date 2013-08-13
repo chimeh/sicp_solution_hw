@@ -1,5 +1,6 @@
 #lang racket
 
+;习题1.29
 ;课本上的例子
 (define (cube x) (* x x x))
 (define (sum term a next b)

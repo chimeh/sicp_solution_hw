@@ -1,4 +1,6 @@
 #lang racket
+
+;习题1.25
 ;不好理解～～～
 (define (enven? n) (remainder n 0))
 

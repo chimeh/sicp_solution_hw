@@ -1,5 +1,7 @@
 #lang planet neil/sicp
 ; #lang racket
+
+;习题1.24
 (define (square n) (* n n))
 
 (define (expmod base exp m)

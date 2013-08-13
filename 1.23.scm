@@ -1,4 +1,6 @@
 #lang planet neil/sicp
+
+;习题1.23
 (define (square x) (* x x)) 
  
 (define (divides? a b) 

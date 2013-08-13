@@ -5,7 +5,7 @@
 ### by jim ###
 
 --------------------------
-这是SICP1。
+杩欐槸SICP1銆
 
 术语：*process*, *procedure*, *self-evaluating*, *name*, *combinations*, *special form*,  
   

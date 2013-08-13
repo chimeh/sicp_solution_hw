@@ -1,5 +1,6 @@
 #lang planet neil/sicp
 
+;习题1.14a
  (define (count-change amount) 
    (cc amount 5))
  
