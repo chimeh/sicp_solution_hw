@@ -6,6 +6,12 @@
       1
       (* (term a)
          (product term (next a) next b))))
+(define (product-iter term a next b)
+  (define (iter a result)
+    (if (> a b)
+        result
+        (iter (next a) (* (term a) result))))
+  (iter a 1))
 
 (define (inc x) (+ x 1))
 (define (self x) x)
@@ -23,10 +29,9 @@
      n))
      
   
-(define pipi (* 4 (qtrpi 1)))
+(define pipi (* 4.0 (qtrpi 10000)))
 
 ;test
 (factorial 8)
-(piterm 3)
 pipi
       
